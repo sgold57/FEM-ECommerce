@@ -55,21 +55,89 @@ table {
   border-color: black;
 }
 
+.border-test-red {
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+}
+
+.border-test-blue {
+  border-style: solid;
+  border-width: 2px;
+  border-color: blue;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body {
+  margin-left: 11.5%;
+  margin-right: 11.5%;
+  height: 100vh;
+}
+
+header {
+  height: 12%;
+  border-bottom: 1px solid rgb(232, 232, 234)
+}
+
+.section-div {
+  display: inline-flex;
+  font-family: 'Kumbh Sans', sans-serif;
+  color: hsl(219, 9%, 45%);
+}
+
+#content-section {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 88%;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+#photo-section {
+  margin-top: 11.5%;
+  padding-left: 8%;
+}
+
+#big-photo {
+  height: 63.7%;
+  width: 81%;
+  border-radius: 2.5%;
+}
+
+#item-details-section {
+  margin-top: 11.5%;
+}
+
+#company-div {
+  color: hsl(26, 100%, 55%);
+}
+
+#item-name-div {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+#price-actual {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+#item-description {
+  color: hsl(219, 9%, 45%);
+  font-size: 16px;
+}
+
+#price-original {
+  color: hsl(220, 14%, 75%);
+  text-decoration: line-through;
+}
+
 .attribution { 
   font-size: 11px; 
   text-align: center; 
+  font-family: 'Kumbh Sans';
 }
 
 .attribution a {
    color: hsl(228, 45%, 44%); 
-}
-
-
-#header {
-  background-color: coral;
-}
-
-
-.section-div{
-  display: inline-flex;
 }
