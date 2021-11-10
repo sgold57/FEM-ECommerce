@@ -94,6 +94,9 @@ header {
 }
 
 #photo-section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
   margin-top: 11.5%;
   padding-left: 8%;
 }
@@ -102,6 +105,19 @@ header {
   height: 63.7%;
   width: 81%;
   border-radius: 2.5%;
+}
+
+#thumbnail-section {
+  display:flex;
+  gap: 25px;
+  width: 81%;
+  height: 12.5%;
+}
+
+.thumbnail-photo {
+  height: 100%;
+  border-radius: 5%;
+
 }
 
 #item-details-section {
