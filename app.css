@@ -121,17 +121,16 @@ header {
 }
 
 #item-details-section {
-  margin-top: 11.5%;
-  padding-left: 5%;
-  padding-right: 10%;
+  margin-top: 17.5%;
+  padding-left: 7.5%;
+  padding-right: 12.5%;
 }
 
 #company-div {
-  margin-top: 10%;
+  margin-top: 11%;
   margin-bottom: 3%;
   color: hsl(26, 100%, 55%);
   font-size: 16px;
-
   font-weight: bold;
   letter-spacing: 1.25px;
 
@@ -149,7 +148,7 @@ header {
 #item-description {
   color: hsl(219, 9%, 45%);
   font-size: 16px;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   line-height: 1.5;
   margin-bottom: 3.5%;
 }
@@ -161,6 +160,17 @@ header {
 #price-actual {
   font-weight: 700;
   font-size: 28px;
+  margin-right: 2.5%;
+}
+
+#discount-span {
+  color: hsl(26, 100%, 55%);
+  font-size: 18px;
+  font-weight: 700;
+  background-color: hsl(25, 100%, 94%);
+  padding: 4px 7px;
+  border-radius: 4px;
+
 }
 
 #price-original {
