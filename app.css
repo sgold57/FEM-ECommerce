@@ -98,19 +98,19 @@ header {
   flex-direction: column;
   gap: 30px;
   margin-top: 11.5%;
-  padding-left: 8%;
+  padding-left: 12.5%;
 }
 
 #big-photo {
   height: 63.7%;
-  width: 81%;
+  width: 85%;
   border-radius: 2.5%;
 }
 
 #thumbnail-section {
   display:flex;
   gap: 25px;
-  width: 81%;
+  width: 85%;
   height: 12.5%;
 }
 
@@ -122,25 +122,45 @@ header {
 
 #item-details-section {
   margin-top: 11.5%;
+  padding-left: 5%;
+  padding-right: 10%;
 }
 
 #company-div {
+  margin-top: 10%;
+  margin-bottom: 3%;
   color: hsl(26, 100%, 55%);
+  font-size: 16px;
+
+  font-weight: bold;
+  letter-spacing: 1.25px;
+
 }
 
 #item-name-div {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 48px;
+  word-spacing: 1px;
+  line-height: 1.2;
+  padding-bottom: 5%;
+}
+
+
+#item-description {
+  color: hsl(219, 9%, 45%);
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  margin-bottom: 3.5%;
+}
+
+#actual-price-div {
+  margin-bottom: 3%;
 }
 
 #price-actual {
   font-weight: 700;
   font-size: 28px;
-}
-
-#item-description {
-  color: hsl(219, 9%, 45%);
-  font-size: 16px;
 }
 
 #price-original {
