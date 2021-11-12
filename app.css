@@ -80,13 +80,30 @@ body {
 
 header {
   height: 12%;
-  border-bottom: 1px solid rgb(232, 232, 234)
+  border-bottom: 1px solid rgb(232, 232, 234);
+  display: flex;
+  align-items: center;
 }
 
 .section-div {
   display: inline-flex;
   font-family: 'Kumbh Sans', san-serif;
   color: hsl(219, 9%, 45%);
+  margin-right: 42.5%;
+  gap: 25px;
+}
+
+#logo {
+  margin-right: 5%;
+}
+
+#cart-icon-header {
+  margin-right: 4%;
+}
+
+#avatar {
+  height: 50px;
+  width: 50px;
 }
 
 #content-section {
@@ -191,7 +208,7 @@ header {
 #add-remove-button {
   background-color: hsl(223, 64%, 98%);
   width: 30%;
-  padding: 3%;
+  padding: 4% 3%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -205,14 +222,14 @@ header {
   font-weight: bold;
   background-color: hsl(26, 100%, 55%);
   color: hsl(0, 0%, 100%);
-  padding: 3%;
+  padding: 4% 3%;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 15px;
   border: none;
-  border-radius: 5px;
-  width: 55%;
+  border-radius: 7px;
+  width: 60%;
 }
 
 .attribution { 
