@@ -185,8 +185,7 @@ header {
 #inventory-button-div {
   margin-top: 5%;
   display: flex;
-  align-items: center;
-  gap: 15px;
+  gap: 20px;
 }
 
 #add-remove-button {
@@ -196,19 +195,24 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-radius: 10px;
+
 
 }
 
 #cart-button {
   font-family: 'Kumbh Sans', sans-serif;
+  font-weight: bold;
   background-color: hsl(26, 100%, 55%);
   color: hsl(0, 0%, 100%);
   padding: 3%;
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 15px;
   border: none;
-  width: 45%;
+  border-radius: 5px;
+  width: 55%;
 }
 
 .attribution { 
