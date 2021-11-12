@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -69,6 +71,7 @@ table {
 
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
+
 body {
   margin-left: 11.5%;
   margin-right: 11.5%;
@@ -82,7 +85,7 @@ header {
 
 .section-div {
   display: inline-flex;
-  font-family: 'Kumbh Sans', sans-serif;
+  font-family: 'Kumbh Sans', san-serif;
   color: hsl(219, 9%, 45%);
 }
 
@@ -132,7 +135,7 @@ header {
   color: hsl(26, 100%, 55%);
   font-size: 16px;
   font-weight: bold;
-  letter-spacing: 1.25px;
+  letter-spacing: 1px;
 
 }
 
@@ -154,6 +157,7 @@ header {
 }
 
 #actual-price-div {
+  display: flex;
   margin-bottom: 3%;
 }
 
@@ -176,6 +180,35 @@ header {
 #price-original {
   color: hsl(220, 14%, 75%);
   text-decoration: line-through;
+}
+
+#inventory-button-div {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+#add-remove-button {
+  background-color: hsl(223, 64%, 98%);
+  width: 30%;
+  padding: 3%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+#cart-button {
+  font-family: 'Kumbh Sans', sans-serif;
+  background-color: hsl(26, 100%, 55%);
+  color: hsl(0, 0%, 100%);
+  padding: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  width: 45%;
 }
 
 .attribution { 
