@@ -69,9 +69,6 @@ table {
   border-color: blue;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
-
-
 body {
   margin-left: 11.5%;
   margin-right: 11.5%;
@@ -85,25 +82,46 @@ header {
   align-items: center;
 }
 
-.section-div {
-  display: inline-flex;
-  font-family: 'Kumbh Sans', san-serif;
-  color: hsl(219, 9%, 45%);
-  margin-right: 42.5%;
-  gap: 25px;
-}
-
 #logo {
   margin-right: 5%;
 }
 
+.section-div {
+  display: inline-flex;
+  height: 100%;
+  font-family: 'Kumbh Sans', san-serif;
+  text-align: center;
+  color: hsl(219, 9%, 45%);
+  padding-right: 35%;
+  gap: 25px;
+}
+
+.section-div .section-tab {
+  padding: 12.5% 0;
+  max-height: 50%;
+}
+
+.section-tab:hover {
+  border-bottom: 3px solid hsl(26, 100%, 55%);
+}
+
 #cart-icon-header {
-  margin-right: 4%;
+  padding-left: 4%;
+}
+
+#cart-icon-header:hover {
+  fill: black;
 }
 
 #avatar {
   height: 50px;
   width: 50px;
+  margin-left: 4%;
+}
+
+#avatar:hover {
+  border: 1px solid hsl(26, 100%, 55%);
+  border-radius: 50%;
 }
 
 #content-section {
@@ -213,8 +231,10 @@ header {
   justify-content: space-between;
   align-items: center;
   border-radius: 10px;
+}
 
-
+.add-or-remove:hover{
+  fill: hsl(25, 100%, 75%);
 }
 
 #cart-button {
@@ -230,6 +250,10 @@ header {
   border: none;
   border-radius: 7px;
   width: 60%;
+}
+
+#cart-button:hover {
+  background-color: hsl(25, 100%, 75%);
 }
 
 .attribution { 
