@@ -155,8 +155,13 @@ header {
 .thumbnail-photo {
   height: 100%;
   border-radius: 5%;
-
 }
+
+
+.thumbnail-photo:hover {
+  opacity: 0.3;
+}
+
 
 #item-details-section {
   margin-top: 17.5%;
@@ -233,7 +238,9 @@ header {
   border-radius: 10px;
 }
 
-.add-or-remove:hover{
+
+
+.add-and-remove-item:hover {
   fill: hsl(25, 100%, 75%);
 }
 
